@@ -1,0 +1,204 @@
+/* 
+HERO & FOOTER
+primary color: #1f2937;
+main text: 48px #f9faf8 weight: 900
+
+HERO secondary text, Header Link Text: 18px #e5e7eb;
+Header LOGO Text: 24px #f9faf8;
+
+BUTTON color, CTA: #3882f6;
+
+Information Header Text: 36px #1f2937; weight: 900
+
+Quote Section BG color: #e5e7eb;
+
+Quote text: 36px light italic #1f2937;
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100dvh;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 62.5%;
+  line-height: 1;
+  color: #333;
+}
+
+button {
+  font-size: 2rem;
+  padding: 1.2rem 3rem;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: none;
+  border-radius: 1rem;
+
+  cursor: pointer;
+}
+
+.container {
+  max-width: 100rem;
+  padding: 4.8rem 2.4rem;
+  margin: 0 auto;
+}
+
+.nav-container {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1.6rem 9.6rem;
+}
+
+#logo {
+  font-size: 2.4rem;
+  color: #f9faf8;
+}
+
+#nav-links {
+  list-style-type: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+#nav-links li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12rem;
+  padding: 4.8rem 9.6rem;
+  background-color: #1f2937;
+}
+
+.hero-primary-text {
+  font-size: 4.8rem;
+  font-weight: 900;
+  color: #f9faf8;
+
+  margin-bottom: 3rem;
+}
+
+.hero-secondary-text {
+  font-size: 1.8rem;
+  color: #e5e7eb;
+  line-height: 1.2;
+
+  margin-bottom: 3rem;
+}
+
+.hero-image-box {
+  width: 100%;
+}
+
+.hero-image-box img {
+  width: 500px;
+  height: auto;
+}
+
+.testimonial-content {
+  padding: 1.6rem 4.8rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.testimonial-head {
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  margin-top: 1.6rem;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 1.6rem;
+}
+
+.testimonial img {
+  width: 200px;
+  border-radius: 2rem;
+  border: 2px solid #3882f6;
+}
+
+.testimonial p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.quote-section {
+  background-color: #e5e7eb;
+  /* padding: 4.8rem; */
+}
+
+.quote-text {
+  text-align: justify;
+  font-size: 2.4rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.2;
+  margin-bottom: 1.2rem;
+}
+
+.quote-author {
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-align: end;
+}
+
+.cta-section {
+  padding: 4.8rem 9.6rem;
+}
+
+.cta-content {
+  background-color: #3882f6;
+  color: #f9faf8;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 4.8rem 9.6rem;
+  border-radius: 10px;
+}
+
+.cta-header {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.cta-text {
+  font-size: 1.6rem;
+  color: #e5e7eb;
+}
+
+.cta-content button {
+  border: 2px solid #f9faf8;
+  background: transparent;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 2.4rem 0;
+}
